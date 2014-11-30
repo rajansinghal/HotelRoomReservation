@@ -4,6 +4,6 @@ import com.thoughtworks.miami.model.Hotel;
 
 public interface OnlineReservation {
 	
-	String findCheapestHotel(String input);
+	public String findCheapestHotel(String input);
 
 }
